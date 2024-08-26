@@ -58,7 +58,8 @@ public class GenericsTest {
         List<Number> number = new ArrayList<>();
         List<Integer> integer = Arrays.asList(1, 2);
         try {
-            generics.cloneMethod(number, integer);
+            generics.
+                    cloneMethod(number, integer);
         } catch (Exception ex) {
             throw new Error("Clone method failed", ex);
         }
